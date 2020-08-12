@@ -1,0 +1,33 @@
+{% extends 'base.html' %} {% block content %}
+
+<div class="container-fluid">
+  <div class="jumbotron">
+    <h1 align="center">Welcome to the List of Restaurants</h1>
+  </div>
+  <div class="table-responsive table-hover">
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th>
+            Name
+          </th>
+          <th>Location</th>
+          <th>Update</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for restaurant in restaurants %}
+        <tr>
+          <td>{{restaurant.name}}</td>
+          <td>{{restaurant.location}}</td>
+          <td><a class='btn btn-primary' href="{% url 'restaurant_update' pk=restaurant.pk %}">Update</a></td>
+          <td><a class='btn btn-danger' href="{% url 'restaurant_delete' pk=restaurant.pk %}">Delete</a></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+{% endblock content %}

@@ -1,0 +1,35 @@
+{% extends 'base.html' %} {% block content %}
+
+<div class="container-fluid">
+  <div class="jumbotron">
+    <h1 align="center">Welcome to the List of Menu</h1>
+  </div>
+  <div class="table-responsive table-hover">
+    <table class="table">
+      <thead class="thead">
+        <tr>
+          <th>
+            Name
+          </th>
+          <th>Price</th>
+          <th>Restaurant</th>
+          <th>Update</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for menu in menus %}
+        <tr>
+          <td>{{menu.name}}</td>
+          <td>{{menu.price}}</td>
+          <td>{{menu.restaurant}}</td>
+          <td><a class='btn btn-primary' href="{% url 'menu_update' pk=menu.pk %}">Update</a></td>
+          <td><a class='btn btn-danger' href="{% url 'menu_delete' pk=menu.pk %}">Delete</a></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+{% endblock content %}
