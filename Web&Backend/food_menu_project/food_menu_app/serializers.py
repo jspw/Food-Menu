@@ -7,7 +7,7 @@ from rest_framework import viewsets
 class MenuSerializer(serializers.ModelSerializer):
     class Meta:
         model=Menu
-        fields = ['id','name','price']
+        fields = ['name','price']
 
 
 class MiniSerializer(serializers.ModelSerializer):
@@ -20,3 +20,6 @@ class RestaurantSerializer(serializers.ModelSerializer):
     class Meta:
         model= Restaurant
         fields = ['name','location','menu']
+
+
+

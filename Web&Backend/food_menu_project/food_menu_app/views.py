@@ -13,6 +13,7 @@ from .serializers import RestaurantSerializer,MenuSerializer,MiniSerializer
 
 from .models import Restaurant,Menu
 
+
 # Create your views here.
 
 class IndexView(TemplateView):
