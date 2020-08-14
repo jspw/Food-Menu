@@ -23,12 +23,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flare_splash_screen: ^3.0.1  
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.3
   http: ^0.12.2
+  animated_splash: ^1.0.0
 
 dev_dependencies:
   flutter_test:
@@ -46,10 +48,12 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  #assets:
+assets:
   #- Assests_Images/restaurantlistimage.png
-  #- Assests_Images/splashscreenmainscreen.png
-  #- Assests_Images/splashscreenitem.png
+  - assets/Assests_Images/mainsplash.png
+  - assets/Assests_Images/splashscreenitem.png
+  - assets/images/mainsplash.png
+  
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
