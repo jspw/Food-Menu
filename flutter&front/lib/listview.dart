@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class restlistview extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final title = "ListView List";
+    final title = "";
 
     List choices = const [
       const Choice(
@@ -25,11 +25,11 @@ class restlistview extends StatelessWidget {
       const Choice(
           title: 'Peepers',
           Address: 'Zindabazar,Sylhet',
-          imglink: 'https://i.imgur.com/izRo3Tj.png'),
+          imglink: 'https://i.imgur.com/AJ6xR88.png'),
       const Choice(
           title: 'The Swad Restaurant',
           Address: 'Zindabazar,Sylhet',
-          imglink: 'https://i.imgur.com/o4ZRh9k.png'),
+          imglink: 'https://i.imgur.com/AS6sDPr.png'),
     ];
 
     return MaterialApp(
