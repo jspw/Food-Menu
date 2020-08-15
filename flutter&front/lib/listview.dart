@@ -33,29 +33,32 @@ class restlistview extends StatelessWidget {
     ];
 
     return MaterialApp(
-        title: title,
-        home: Scaffold(
-            appBar: AppBar(
-              title: Image.network(
-                'https://i.imgur.com/OoUnOPB.gif',
-                fit: BoxFit.cover,
-              ),
-              backgroundColor: Color(0xffB01C2A),
-            ),
-            body: DecoratedBox(
-                position: DecorationPosition.background,
-                decoration: BoxDecoration(
-                    color: Color(0xffFAAF40),
-                    image: DecorationImage(image: NetworkImage(''))),
-                child: new ListView(
-                    shrinkWrap: true,
-                    padding: const EdgeInsets.only(top: 10.0),
-                    children: List.generate(choices.length, (index) {
-                      return Center(
-                        child: ChoiceCard(
-                            choice: choices[index], item: choices[index]),
-                      );
-                    })))));
+      title: title,
+      home: Scaffold(
+        appBar: AppBar(
+          title: Image.network(
+            'https://i.imgur.com/OoUnOPB.gif',
+            fit: BoxFit.cover,
+          ),
+          backgroundColor: Color(0xffB01C2A),
+        ),
+        body: DecoratedBox(
+          position: DecorationPosition.background,
+          decoration: BoxDecoration(
+              color: Color(0xffFAAF40),
+              image: DecorationImage(image: NetworkImage(''))),
+          child: new ListView(
+            shrinkWrap: true,
+            padding: const EdgeInsets.only(top: 10.0),
+            children: List.generate(choices.length, (index) {
+              return Center(
+                child: ChoiceCard(choice: choices[index], item: choices[index]),
+              );
+            }),
+          ),
+        ),
+      ),
+    );
   }
 }
 
@@ -103,7 +106,10 @@ class ChoiceCard extends StatelessWidget {
                 width: 100,
                 padding: const EdgeInsets.only(
                     top: 8.0, bottom: 8.0, left: 0.0, right: 8.0),
-                child: Image.network(choice.imglink)),
+                child: Image.network(
+                  choice.imglink,
+                  scale: 1.0,
+                )),
             new Container(
               padding: const EdgeInsets.only(
                   top: 30.0, bottom: 8.0, left: 2.0, right: 8.0),

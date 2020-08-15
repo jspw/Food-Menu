@@ -7,30 +7,81 @@ class SplashScreen extends StatefulWidget {
   _SplashScreenState createState() => _SplashScreenState();
 }
 
-class _SplashScreenState extends State<SplashScreen> {
+class _SplashScreenState extends State<SplashScreen>
+    with TickerProviderStateMixin {
+  Animation animation;
+  AnimationController controller;
+
   @override
   void initState() {
     super.initState();
+    controller = new AnimationController(
+      duration: const Duration(milliseconds: 2000),
+      vsync: this,
+    );
+
+    final CurvedAnimation curve =
+        new CurvedAnimation(parent: controller, curve: Curves.easeInCubic);
+    animation = new Tween(begin: 100.0, end: 400.0).animate(curve);
+    animation.addStatusListener(listener);
+    controller.forward();
     Timer(
         Duration(seconds: 5),
         () => Navigator.of(context).pushReplacement(MaterialPageRoute(
             builder: (BuildContext context) => restlistview())));
   }
 
+  
+
+  void listener(AnimationStatus status) {
+    if (status == AnimationStatus.completed) {
+      controller.reverse();
+    } else if (status == AnimationStatus.dismissed) {
+      controller.forward();
+    }
+  }
+
+  Widget builder(BuildContext context, Widget child) {
+    return new Container(
+      height: animation.value,
+      width: animation.value,
+      child: Image.asset(
+        'assets/images/splashscreen_main.png',
+        fit: BoxFit.cover,
+      ),
+    );
+  }
+
+
+  @override
+dispose() {
+  controller.dispose(); // you need this
+  super.dispose();
+}
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: DecoratedBox(
-        position: DecorationPosition.background,
-        decoration: BoxDecoration(
+      body: Container(
+        height: MediaQuery.of(context).size.height,
+        child: DecoratedBox(
+          position: DecorationPosition.background,
+          decoration: BoxDecoration(
             color: Colors.white,
             image: DecorationImage(
-                image: NetworkImage(
-                  'https://i.imgur.com/KS9AbXK.png',
-                ),
-                fit: BoxFit.cover)),
-        child: Image.network('https://i.imgur.com/o4ZRh9k.png'),
+              image: AssetImage("assets/images/splashscreen_bg.png"),
+              fit: BoxFit.fill,
+            ),
+          ),
+          child: Center(
+            child: Stack(
+              children: <Widget>[
+                AnimatedBuilder(animation: animation, builder: builder),
+              ],
+            ),
+          ),
+        ),
       ),
     );
   }
