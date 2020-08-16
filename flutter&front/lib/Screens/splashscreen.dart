@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'listview.dart';
+import 'package:sylhetrestaurant/Screens/restaurants.dart';
+
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -21,17 +22,16 @@ class _SplashScreenState extends State<SplashScreen>
     );
 
     final CurvedAnimation curve =
-        new CurvedAnimation(parent: controller, curve: Curves.easeInCubic);
+        new CurvedAnimation(parent: controller, curve: Curves.bounceInOut);
     animation = new Tween(begin: 100.0, end: 400.0).animate(curve);
     animation.addStatusListener(listener);
     controller.forward();
     Timer(
         Duration(seconds: 5),
         () => Navigator.of(context).pushReplacement(MaterialPageRoute(
-            builder: (BuildContext context) => restlistview())));
+            builder: (BuildContext context) => Restaurants())));
   }
 
-  
 
   void listener(AnimationStatus status) {
     if (status == AnimationStatus.completed) {
