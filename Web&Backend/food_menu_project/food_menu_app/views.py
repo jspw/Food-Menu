@@ -65,7 +65,7 @@ class RestaurantDeleteView(DeleteView):
 class CreateMenuView(CreateView):
     template_name = 'menu_form.html'
     success_url = reverse_lazy("menu")
-    fields = ("name","price",'restaurant')
+    fields = ("name","price",'restaurant','catagory')
     model = models.Menu
     
 
@@ -78,7 +78,7 @@ class MenuListView(ListView):
 class MenuUpdateView(UpdateView):
     template_name = 'menu_form.html'
     success_url = reverse_lazy('menu')
-    fields = ("name","price","restaurant")
+    fields = ("name","price","restaurant",'catagory')
     model = models.Menu
 
 class MenuDeleteView(DeleteView):

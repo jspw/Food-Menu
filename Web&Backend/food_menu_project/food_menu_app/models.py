@@ -18,6 +18,7 @@ class Restaurant(models.Model):
 class Menu(models.Model):
     name = models.CharField(max_length=256)
     price = models.IntegerField()
+    catagory = models.CharField(max_length=256,null=True)
     restaurant = models.ForeignKey(Restaurant,related_name='menu',on_delete=models.CASCADE)
 
     def __str__(self):
