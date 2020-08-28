@@ -24,17 +24,18 @@ dependencies:
   flutter:
     sdk: flutter
   flare_splash_screen: ^3.0.1  
-
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.3
   http: ^0.12.2
   animated_splash: ^1.0.0
+  google_fonts: ^1.1.0
+  adobe_xd: ^1.0.0+1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -45,14 +46,11 @@ flutter:
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
-  uses-material-design: true
+  uses-material-design: true  
 
   # To add assets to your application, add an assets section, like this:
-assets:
-  #- Assests_Images/restaurantlistimage.png
-  - assets/Assests_Images/mainsplash.png
-  - assets/Assests_Images/splashscreenitem.png
-  - assets/images/mainsplash.png
+  assets:
+    - assets/images/
   
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -66,10 +64,22 @@ assets:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
- #fonts:
-  #- family: PFDetour
-  # fonts:
-  #       - asset: 
+  fonts:
+  - family: GermaniaOne
+    fonts:
+       - asset: assets/fonts/GermaniaOne-Regular.ttf
+
+  - family: AlfaSlabOne
+    fonts:
+       - asset: assets/fonts/AlfaSlabOne-Regular.ttf
+
+  - family: Brusher
+    fonts:
+       - asset: assets/fonts/Brusher.ttf     
+
+  - family: Edo
+    fonts:
+       - asset: assets/fonts/Edo.ttf       
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

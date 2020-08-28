@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\flutter_projects\\sylhetrestaurant\\sylhetrestaurant\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\flutter_projects\\sylhetmenu\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "E:\\flutter_projects\\sylhetrestaurant\\sylhetrestaurant\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "E:\\flutter_projects\\sylhetmenu\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
