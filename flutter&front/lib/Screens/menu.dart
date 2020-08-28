@@ -3,6 +3,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:google_fonts/google_fonts.dart';
+import 'mapview.dart';
 
 class Menu extends StatelessWidget {
   final int id;
@@ -70,8 +71,11 @@ class Menu extends StatelessWidget {
                                 color: Colors.white,
                               ),
                               IconButton(
-                                icon: Icon(Icons.favorite),
-                                onPressed: () {},
+                                icon: Icon(Icons.my_location),
+                                onPressed: () => Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) => (mapclass()))),
                                 iconSize: 30.0,
                                 color: Theme.of(context).primaryColor,
                               ),
