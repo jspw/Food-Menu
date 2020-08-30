@@ -5,20 +5,26 @@ INJECTED from E:\flutter_projects\sylhetmenu\android\app\src\main\AndroidManifes
 INJECTED from E:\flutter_projects\sylhetmenu\android\app\src\main\AndroidManifest.xml:1:1-49:12
 INJECTED from E:\flutter_projects\sylhetmenu\android\app\src\main\AndroidManifest.xml:1:1-49:12
 MERGED from E:\flutter_projects\sylhetmenu\android\app\src\main\AndroidManifest.xml:1:1-49:12
+MERGED from [:geolocator] E:\flutter_projects\sylhetmenu\build\geolocator\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:location_permissions] E:\flutter_projects\sylhetmenu\build\location_permissions\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:google_maps_flutter] E:\flutter_projects\sylhetmenu\build\google_maps_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:flutter_plugin_android_lifecycle] E:\flutter_projects\sylhetmenu\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:sqflite] E:\flutter_projects\sylhetmenu\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:path_provider] E:\flutter_projects\sylhetmenu\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:geocoder] E:\flutter_projects\sylhetmenu\build\geocoder\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:google_api_availability] E:\flutter_projects\sylhetmenu\build\google_api_availability\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:17:1-38:12
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\10631bb3012ccad9c5c9285264903a3d\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5def6947efd2fc7e3f572c72371947c8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d55fb6c8d644ffcbaab19ae6c408a92b\jetified-play-services-location-16.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f81e9fffe318fdc5660099e12e35729e\play-services-base-17.2.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5c697fec7e55e9bb60005789c206ab6c\play-services-places-placereport-16.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\32e01e3a0b7905dca7a358a9820047fe\play-services-tasks-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5720f6f6e2eba5677725edafac92b9e6\jetified-play-services-basement-17.2.1\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\0986d0d74b8a2c7da8161f6370fc7744\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\615cab8ad6393a9c868d48761bbea666\activity-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\28d99d5113324aa067757f8ca41a426f\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e1bbce6b0d79e8479b70e7bd729bb743\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\ef0bef029ab70f5fb29de019060cf5fd\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\a528b13ac93e64cafa3d0480e2c93207\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core:1.2.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\b6252bb7f30c7dceb20e97dfa6dfae00\core-1.2.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\49ede1f7b9aa322a43288e9745adc2db\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\54d8b8735f730e83f07925f758092af3\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\23edc849475fdda61367cb003f9b9f93\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
@@ -26,6 +32,7 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Asus\.gr
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\077300052aa327ee6fc9bbb0ce309b24\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3a7eb299570065a3866b140e1a95969b\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\b80fad55c42c418cc210e235056767fb\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\2b16ac6c4193835014f293427ee35afa\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 INJECTED from E:\flutter_projects\sylhetmenu\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from E:\flutter_projects\sylhetmenu\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from E:\flutter_projects\sylhetmenu\android\app\src\debug\AndroidManifest.xml:1:1-7:12
@@ -55,18 +62,22 @@ application
 ADDED from E:\flutter_projects\sylhetmenu\android\app\src\main\AndroidManifest.xml:10:5-48:19
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\10631bb3012ccad9c5c9285264903a3d\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\10631bb3012ccad9c5c9285264903a3d\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5def6947efd2fc7e3f572c72371947c8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5def6947efd2fc7e3f572c72371947c8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\a528b13ac93e64cafa3d0480e2c93207\core-1.1.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\a528b13ac93e64cafa3d0480e2c93207\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d55fb6c8d644ffcbaab19ae6c408a92b\jetified-play-services-location-16.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d55fb6c8d644ffcbaab19ae6c408a92b\jetified-play-services-location-16.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f81e9fffe318fdc5660099e12e35729e\play-services-base-17.2.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f81e9fffe318fdc5660099e12e35729e\play-services-base-17.2.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5c697fec7e55e9bb60005789c206ab6c\play-services-places-placereport-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5c697fec7e55e9bb60005789c206ab6c\play-services-places-placereport-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\32e01e3a0b7905dca7a358a9820047fe\play-services-tasks-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\32e01e3a0b7905dca7a358a9820047fe\play-services-tasks-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5720f6f6e2eba5677725edafac92b9e6\jetified-play-services-basement-17.2.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5720f6f6e2eba5677725edafac92b9e6\jetified-play-services-basement-17.2.1\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.2.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\b6252bb7f30c7dceb20e97dfa6dfae00\core-1.2.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\b6252bb7f30c7dceb20e97dfa6dfae00\core-1.2.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3a7eb299570065a3866b140e1a95969b\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3a7eb299570065a3866b140e1a95969b\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\a528b13ac93e64cafa3d0480e2c93207\core-1.1.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.2.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\b6252bb7f30c7dceb20e97dfa6dfae00\core-1.2.0\AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from E:\flutter_projects\sylhetmenu\android\app\src\main\AndroidManifest.xml:12:9-41
 	android:icon
@@ -119,6 +130,10 @@ uses-sdk
 INJECTED from E:\flutter_projects\sylhetmenu\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\flutter_projects\sylhetmenu\android\app\src\main\AndroidManifest.xml
 INJECTED from E:\flutter_projects\sylhetmenu\android\app\src\main\AndroidManifest.xml
+MERGED from [:geolocator] E:\flutter_projects\sylhetmenu\build\geolocator\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:geolocator] E:\flutter_projects\sylhetmenu\build\geolocator\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:location_permissions] E:\flutter_projects\sylhetmenu\build\location_permissions\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:location_permissions] E:\flutter_projects\sylhetmenu\build\location_permissions\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:google_maps_flutter] E:\flutter_projects\sylhetmenu\build\google_maps_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:google_maps_flutter] E:\flutter_projects\sylhetmenu\build\google_maps_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] E:\flutter_projects\sylhetmenu\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
@@ -127,14 +142,22 @@ MERGED from [:sqflite] E:\flutter_projects\sylhetmenu\build\sqflite\intermediate
 MERGED from [:sqflite] E:\flutter_projects\sylhetmenu\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] E:\flutter_projects\sylhetmenu\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] E:\flutter_projects\sylhetmenu\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:geocoder] E:\flutter_projects\sylhetmenu\build\geocoder\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:geocoder] E:\flutter_projects\sylhetmenu\build\geocoder\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:google_api_availability] E:\flutter_projects\sylhetmenu\build\google_api_availability\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:google_api_availability] E:\flutter_projects\sylhetmenu\build\google_api_availability\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\10631bb3012ccad9c5c9285264903a3d\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\10631bb3012ccad9c5c9285264903a3d\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5def6947efd2fc7e3f572c72371947c8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5def6947efd2fc7e3f572c72371947c8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d55fb6c8d644ffcbaab19ae6c408a92b\jetified-play-services-location-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d55fb6c8d644ffcbaab19ae6c408a92b\jetified-play-services-location-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f81e9fffe318fdc5660099e12e35729e\play-services-base-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f81e9fffe318fdc5660099e12e35729e\play-services-base-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5c697fec7e55e9bb60005789c206ab6c\play-services-places-placereport-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5c697fec7e55e9bb60005789c206ab6c\play-services-places-placereport-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\32e01e3a0b7905dca7a358a9820047fe\play-services-tasks-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\32e01e3a0b7905dca7a358a9820047fe\play-services-tasks-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5720f6f6e2eba5677725edafac92b9e6\jetified-play-services-basement-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5720f6f6e2eba5677725edafac92b9e6\jetified-play-services-basement-17.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\0986d0d74b8a2c7da8161f6370fc7744\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\0986d0d74b8a2c7da8161f6370fc7744\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\615cab8ad6393a9c868d48761bbea666\activity-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -145,8 +168,8 @@ MERGED from [androidx.loader:loader:1.0.0] C:\Users\Asus\.gradle\caches\transfor
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e1bbce6b0d79e8479b70e7bd729bb743\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\ef0bef029ab70f5fb29de019060cf5fd\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\ef0bef029ab70f5fb29de019060cf5fd\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\a528b13ac93e64cafa3d0480e2c93207\core-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\a528b13ac93e64cafa3d0480e2c93207\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\b6252bb7f30c7dceb20e97dfa6dfae00\core-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\b6252bb7f30c7dceb20e97dfa6dfae00\core-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\49ede1f7b9aa322a43288e9745adc2db\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\49ede1f7b9aa322a43288e9745adc2db\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\54d8b8735f730e83f07925f758092af3\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -161,6 +184,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\As
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3a7eb299570065a3866b140e1a95969b\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\b80fad55c42c418cc210e235056767fb\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\b80fad55c42c418cc210e235056767fb\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\2b16ac6c4193835014f293427ee35afa\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\2b16ac6c4193835014f293427ee35afa\multidex-2.0.0\AndroidManifest.xml:20:5-43
 INJECTED from E:\flutter_projects\sylhetmenu\android\app\src\debug\AndroidManifest.xml
 INJECTED from E:\flutter_projects\sylhetmenu\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
@@ -169,6 +194,10 @@ INJECTED from E:\flutter_projects\sylhetmenu\android\app\src\debug\AndroidManife
 	android:minSdkVersion
 		INJECTED from E:\flutter_projects\sylhetmenu\android\app\src\main\AndroidManifest.xml
 		INJECTED from E:\flutter_projects\sylhetmenu\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:geolocator] E:\flutter_projects\sylhetmenu\build\geolocator\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [:geolocator] E:\flutter_projects\sylhetmenu\build\geolocator\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
 	android:name
@@ -186,16 +215,16 @@ ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gra
 	android:name
 		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f81e9fffe318fdc5660099e12e35729e\play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f81e9fffe318fdc5660099e12e35729e\play-services-base-17.2.1\AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f81e9fffe318fdc5660099e12e35729e\play-services-base-17.2.1\AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f81e9fffe318fdc5660099e12e35729e\play-services-base-17.2.1\AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5def6947efd2fc7e3f572c72371947c8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5720f6f6e2eba5677725edafac92b9e6\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5def6947efd2fc7e3f572c72371947c8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5720f6f6e2eba5677725edafac92b9e6\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5def6947efd2fc7e3f572c72371947c8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5720f6f6e2eba5677725edafac92b9e6\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58

@@ -1,4 +1,4 @@
-#Sat Aug 29 03:11:06 BDT 2020
+#Mon Aug 31 01:31:50 BDT 2020
 base.0=E\:\\flutter_projects\\sylhetmenu\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

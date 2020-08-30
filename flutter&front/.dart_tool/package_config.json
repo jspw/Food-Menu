@@ -80,6 +80,12 @@
       "languageVersion": "2.0"
     },
     {
+      "name": "equatable",
+      "rootUri": "file:///C:/flutter/flutter_windows_1.17.5-stable/flutter/.pub-cache/hosted/pub.dartlang.org/equatable-1.2.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "fake_async",
       "rootUri": "file:///C:/flutter/flutter_windows_1.17.5-stable/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.1.0",
       "packageUri": "lib/",
@@ -158,6 +164,24 @@
       "languageVersion": "2.2"
     },
     {
+      "name": "geocoder",
+      "rootUri": "file:///C:/flutter/flutter_windows_1.17.5-stable/flutter/.pub-cache/hosted/pub.dartlang.org/geocoder-0.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "geolocator",
+      "rootUri": "file:///C:/flutter/flutter_windows_1.17.5-stable/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-5.3.2+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "google_api_availability",
+      "rootUri": "file:///C:/flutter/flutter_windows_1.17.5-stable/flutter/.pub-cache/hosted/pub.dartlang.org/google_api_availability-2.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
       "name": "google_fonts",
       "rootUri": "file:///C:/flutter/flutter_windows_1.17.5-stable/flutter/.pub-cache/hosted/pub.dartlang.org/google_fonts-1.1.0",
       "packageUri": "lib/",
@@ -204,6 +228,12 @@
       "rootUri": "file:///C:/flutter/flutter_windows_1.17.5-stable/flutter/.pub-cache/hosted/pub.dartlang.org/lists-0.1.6",
       "packageUri": "lib/",
       "languageVersion": "1.0"
+    },
+    {
+      "name": "location_permissions",
+      "rootUri": "file:///C:/flutter/flutter_windows_1.17.5-stable/flutter/.pub-cache/hosted/pub.dartlang.org/location_permissions-3.0.0+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
     },
     {
       "name": "logging",
@@ -440,7 +470,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2020-08-28T20:58:04.196107Z",
+  "generated": "2020-08-30T19:15:51.361346Z",
   "generator": "pub",
   "generatorVersion": "2.9.0"
 }

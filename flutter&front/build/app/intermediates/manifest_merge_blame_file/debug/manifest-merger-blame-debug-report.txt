@@ -14,7 +14,9 @@
 14    <uses-permission android:name="android.permission.INTERNET" />
 14-->E:\flutter_projects\sylhetmenu\android\app\src\main\AndroidManifest.xml:4:5-66
 14-->E:\flutter_projects\sylhetmenu\android\app\src\main\AndroidManifest.xml:4:22-64
-15    <!-- Include required permissions for Google Maps API to run. -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+15-->[:geolocator] E:\flutter_projects\sylhetmenu\build\geolocator\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+15-->[:geolocator] E:\flutter_projects\sylhetmenu\build\geolocator\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
 16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
@@ -37,7 +39,7 @@
 29        android:name="io.flutter.app.FlutterApplication"
 29-->E:\flutter_projects\sylhetmenu\android\app\src\main\AndroidManifest.xml:11:9-57
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-30-->[androidx.core:core:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\a528b13ac93e64cafa3d0480e2c93207\core-1.1.0\AndroidManifest.xml:24:18-86
+30-->[androidx.core:core:1.2.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\b6252bb7f30c7dceb20e97dfa6dfae00\core-1.2.0\AndroidManifest.xml:24:18-86
 31        android:debuggable="true"
 32        android:icon="@mipmap/ic_launcher"
 32-->E:\flutter_projects\sylhetmenu\android\app\src\main\AndroidManifest.xml:13:9-43
@@ -114,20 +116,20 @@
 78-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
 79
 80        <activity
-80-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+80-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f81e9fffe318fdc5660099e12e35729e\play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
 81            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-81-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+81-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f81e9fffe318fdc5660099e12e35729e\play-services-base-17.2.1\AndroidManifest.xml:24:13-79
 82            android:exported="false"
-82-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+82-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f81e9fffe318fdc5660099e12e35729e\play-services-base-17.2.1\AndroidManifest.xml:25:13-37
 83            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-83-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+83-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f81e9fffe318fdc5660099e12e35729e\play-services-base-17.2.1\AndroidManifest.xml:26:13-72
 84
 85        <meta-data
-85-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5def6947efd2fc7e3f572c72371947c8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+85-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5720f6f6e2eba5677725edafac92b9e6\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
 86            android:name="com.google.android.gms.version"
-86-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5def6947efd2fc7e3f572c72371947c8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+86-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5720f6f6e2eba5677725edafac92b9e6\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
 87            android:value="@integer/google_play_services_version" />
-87-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5def6947efd2fc7e3f572c72371947c8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+87-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5720f6f6e2eba5677725edafac92b9e6\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
 88    </application>
 89
 90</manifest>
