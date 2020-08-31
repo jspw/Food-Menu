@@ -40,9 +40,11 @@ class Restaurants extends StatelessWidget {
           initialData: [],
           future: _restaurant_info(),
           builder: (BuildContext context, AsyncSnapshot snapshot) {
+            print(snapshot.data);
             if (snapshot.connectionState == ConnectionState.none) {
               return Center(child: Text("No Internet Connection!"));
-            } else if (snapshot.data == null || snapshot.connectionState == ConnectionState.waiting) {
+            } else if (snapshot.data == null ||
+                snapshot.connectionState == ConnectionState.waiting) {
               return Center(
                   child: Text(
                 "Getting info....",
